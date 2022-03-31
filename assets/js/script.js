@@ -39,7 +39,8 @@ function timeTracker() {
     $(".time-block").each(function (){
         
         var hourBlock = parseInt($(this).attr("id").split("hour")[1])
-        console.log(hourBlock, currentHour)    
+        
+        $(this).removeClass('past present future')
 
     if(hourBlock < currentHour){
 

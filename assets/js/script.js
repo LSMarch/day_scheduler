@@ -50,7 +50,7 @@ function timeTracker() {
 
     // === time-block looper ===
     
-    $(".time-block").each(function (){
+    $(".time-block").each(function (){        
         
         var hourBlock = parseInt($(this).attr("id").split("hour")[1])
         
